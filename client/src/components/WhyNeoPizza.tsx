@@ -12,7 +12,7 @@ export default function WhyNeoPizza() {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-block py-1 px-4 rounded-full bg-white/10 text-white/80 text-sm font-bold tracking-widest mb-6 border border-white/20 font-poppins">
-              OUR STORY
+              네오스토리
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white mb-8 leading-tight">
               대구에서 시작된<br />
@@ -24,9 +24,6 @@ export default function WhyNeoPizza() {
               </p>
               <p>
                 남들이 원가를 줄일 때, 우리는 재료에 투자했습니다. 남들이 빠른 확장을 택할 때, 우리는 맛의 완성도를 택했습니다. 그 결과 20년이 지난 지금, 전국 40여 개 가맹점 모두 변함없는 맛을 자랑합니다.
-              </p>
-              <p>
-                쪽파크림치즈피자 하나로 시작된 시그니처 레시피는 이제 고르곤졸라, 치킨바베큐 등 다양한 프리미엄 라인업으로 확장되었습니다.
               </p>
               <div className="mt-6 pt-6 border-t border-white/10">
                 <p className="text-primary font-bold text-sm tracking-widest mb-3">사회공헌</p>
@@ -52,8 +49,8 @@ export default function WhyNeoPizza() {
             <div className="relative w-full">
               <div className="rounded-3xl overflow-hidden shadow-2xl shadow-black/30">
                 <img
-                  src="https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800&q=80"
-                  alt="Pizza making process"
+                  src="/store-front.jpg"
+                  alt="네오피자 매장"
                   className="w-full h-[350px] md:h-[420px] object-cover"
                 />
               </div>

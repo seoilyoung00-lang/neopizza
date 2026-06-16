@@ -1,10 +1,19 @@
 import { useEffect, useState } from "react";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import { Menu, X, ShieldCheck } from "lucide-react";
+
+// 해당 id의 섹션으로 부드럽게 스크롤
+function scrollToSection(id: string) {
+  const el = document.getElementById(id);
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
 
 export default function Nav() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [location, navigate] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,13 +23,16 @@ export default function Nav() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navLinks = [
-    { label: "메뉴", href: "#" },
-    { label: "브랜드스토리", href: "#" },
-    { label: "가맹창업", href: "#" },
-    { label: "회사소개", href: "#" },
-    { label: "가맹문의", href: "#" },
-  ];
+  // 메뉴 클릭 시: 홈이면 바로 스크롤, 다른 페이지면 홈으로 이동 후 해당 섹션으로 스크롤
+  const goToSection = (id: string) => {
+    setMobileMenuOpen(false);
+    if (location === "/") {
+      scrollToSection(id);
+    } else {
+      // Home 컴포넌트가 마운트되며 해시를 읽어 스크롤 처리
+      navigate(`/#${id}`);
+    }
+  };
 
   return (
     <header
@@ -33,20 +45,20 @@ export default function Nav() {
     >
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between">
-          <Link href="/" className="font-poppins text-3xl font-black tracking-tighter text-white">
-            NEO<span className="text-primary">PIZZA</span>
+          <Link href="/" className="flex items-center">
+            <img src="/logo-white.png" alt="네오피자" className="h-5 md:h-6 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#menu" className="font-medium transition-colors text-white/90 hover:text-white">메뉴소개</a>
-            <a href="#" className="font-medium transition-colors text-white/90 hover:text-white">매장찾기</a>
-            <a href="#story" className="font-medium transition-colors text-white/90 hover:text-white">네오 스토리</a>
-            <a href="#franchise" className="font-medium transition-colors text-white/90 hover:text-white">가맹안내</a>
-            <a href="#" className="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-full font-bold flex items-center gap-2 transition-all shadow-lg shadow-primary/20">
+            <button onClick={() => goToSection("menu")} className="font-medium transition-colors text-white/90 hover:text-white">메뉴소개</button>
+            <Link href="/stores" className="font-medium transition-colors text-white/90 hover:text-white">매장찾기</Link>
+            <button onClick={() => goToSection("story")} className="font-medium transition-colors text-white/90 hover:text-white">네오 스토리</button>
+            <button onClick={() => goToSection("franchise")} className="font-medium transition-colors text-white/90 hover:text-white">가맹안내</button>
+            <button onClick={() => goToSection("inquiry")} className="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-full font-bold flex items-center gap-2 transition-all shadow-lg shadow-primary/20">
               <ShieldCheck className="w-5 h-5" />
               가맹 문의하기
-            </a>
+            </button>
           </nav>
 
           {/* Mobile Menu Toggle */}
@@ -66,14 +78,14 @@ export default function Nav() {
       {/* Mobile Nav */}
       {mobileMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 px-4 flex flex-col gap-4">
-          <a href="#" className="text-secondary font-medium py-2 border-b border-gray-100" onClick={() => setMobileMenuOpen(false)}>메뉴소개</a>
-          <a href="#" className="text-secondary font-medium py-2 border-b border-gray-100" onClick={() => setMobileMenuOpen(false)}>매장찾기</a>
-          <a href="#" className="text-secondary font-medium py-2 border-b border-gray-100" onClick={() => setMobileMenuOpen(false)}>네오 스토리</a>
-          <a href="#" className="text-secondary font-medium py-2 border-b border-gray-100" onClick={() => setMobileMenuOpen(false)}>가맹안내</a>
-          <a href="#" className="bg-primary text-white text-center font-bold py-3 mt-2 rounded-lg flex items-center justify-center gap-2" onClick={() => setMobileMenuOpen(false)}>
+          <button className="text-left text-secondary font-medium py-2 border-b border-gray-100" onClick={() => goToSection("menu")}>메뉴소개</button>
+          <Link href="/stores" className="text-secondary font-medium py-2 border-b border-gray-100" onClick={() => setMobileMenuOpen(false)}>매장찾기</Link>
+          <button className="text-left text-secondary font-medium py-2 border-b border-gray-100" onClick={() => goToSection("story")}>네오 스토리</button>
+          <button className="text-left text-secondary font-medium py-2 border-b border-gray-100" onClick={() => goToSection("franchise")}>가맹안내</button>
+          <button className="bg-primary text-white text-center font-bold py-3 mt-2 rounded-lg flex items-center justify-center gap-2" onClick={() => goToSection("inquiry")}>
             <ShieldCheck className="w-5 h-5" />
             가맹 문의하기
-          </a>
+          </button>
         </div>
       )}
     </header>

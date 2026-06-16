@@ -4,3 +4,8 @@ dist
 server/public
 vite.config.ts.*
 *.tar.gz
+
+# 환경변수 / 로그 (EmailJS 키 등 - GitHub에 올리지 않음)
+.env
+.env.*
+*.log

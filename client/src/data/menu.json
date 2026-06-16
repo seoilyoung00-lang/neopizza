@@ -1,0 +1,621 @@
+{
+  "updatedAt": "2026-06-15",
+  "note": "배달의민족 기준 네오피자 메뉴. 가격 단위 원. options[].size 없으면 단일가격, original/discount 있으면 할인 메뉴. delivery=배달가, pickup=픽업가. image는 /menu/ 하위 사진 경로(없으면 플레이스홀더).",
+  "categories": [
+    {
+      "id": "set-nega",
+      "name": "네가오면 세트",
+      "items": [
+        {
+          "name": "커플세트",
+          "desc": "반반 중 + 사이드메뉴 택1 + 콜라 500ml · 오늘은 우리 둘이니까 (2인)",
+          "image": "/menu/set-couple.jpg",
+          "options": [
+            {
+              "delivery": 28000,
+              "pickup": 28000
+            }
+          ]
+        },
+        {
+          "name": "친구세트",
+          "desc": "반반 대 + 사이드메뉴 택2 + 콜라 1.25L · 같이 먹으면 더 맛있으니까 (2~3인)",
+          "image": "/menu/set-friend.jpg",
+          "options": [
+            {
+              "delivery": 36000,
+              "pickup": 36000
+            }
+          ]
+        },
+        {
+          "name": "가족세트",
+          "desc": "두판 중 + 사이드메뉴 택2 + 콜라 1.25L · 우리 가족, 아이도 어른도 입맛대로~ (3~4인)",
+          "image": "/menu/set-family.jpg",
+          "options": [
+            {
+              "delivery": 44000,
+              "pickup": 44000
+            }
+          ]
+        },
+        {
+          "name": "모임세트",
+          "desc": "두판 대 + 사이드메뉴 택3 + 콜라 1.25L · 테이블 가득, 모이면 이 정도는 되야지~ (4인 이상)",
+          "image": "/menu/set-group.jpg",
+          "options": [
+            {
+              "delivery": 55000,
+              "pickup": 55000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banban",
+      "name": "취향반반 피자",
+      "items": [
+        {
+          "name": "취향반반 (2가지 맛) 피자",
+          "desc": "양보 없이, 둘 다 먹자. 한 판에 두 가지 맛. 토론은 필요 없다.",
+          "badges": [
+            "인기",
+            "사장님 추천"
+          ],
+          "image": "/menu/banban.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 22000,
+              "pickup": 22000
+            },
+            {
+              "size": "대",
+              "delivery": 26000,
+              "pickup": 26000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-pan",
+      "name": "함께두판 피자",
+      "items": [
+        {
+          "name": "피자 중 + 피자 중",
+          "desc": "모이면 답은 두 판이지. 두 가지 피자로 모두의 입맛 한 번에",
+          "badges": [
+            "인기",
+            "사장님 추천"
+          ],
+          "image": "/menu/twopan-1.png",
+          "options": [
+            {
+              "delivery": 33000,
+              "pickup": 33000
+            }
+          ]
+        },
+        {
+          "name": "피자 대 + 피자 대",
+          "desc": "넉넉하게 가자. 모임 자리의 정석",
+          "badges": [
+            "인기"
+          ],
+          "image": "/menu/twopan-2.png",
+          "options": [
+            {
+              "delivery": 41000,
+              "pickup": 41000
+            }
+          ]
+        },
+        {
+          "name": "피자 대 + 고르곤졸라 대",
+          "desc": "난 고르곤졸라도 같이 먹고싶어",
+          "image": "/menu/twopan-3.png",
+          "options": [
+            {
+              "delivery": 41000,
+              "pickup": 41000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single-pan",
+      "name": "기본한판 피자",
+      "items": [
+        {
+          "name": "쪽파크림치즈",
+          "desc": "네오피자 시그니처 메뉴. 달달하면서 상큼한, 그 묘한 맛. 부드러운 크림치즈에 쪽파향이 살짝.",
+          "badges": [
+            "사장님 추천"
+          ],
+          "image": "/menu/jjokpa.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 23000,
+              "pickup": 23000
+            },
+            {
+              "size": "대",
+              "delivery": 27000,
+              "pickup": 27000
+            }
+          ]
+        },
+        {
+          "name": "매콤카레",
+          "desc": "카레향 감자베이컨에 할라피뇨와 스리라차마요. 독특한데 자꾸 당기는 맛.",
+          "badges": [
+            "사장님 추천"
+          ],
+          "image": "/menu/curry.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 23000,
+              "pickup": 23000
+            },
+            {
+              "size": "대",
+              "delivery": 27000,
+              "pickup": 27000
+            }
+          ]
+        },
+        {
+          "name": "불고기",
+          "desc": "한국인이 못 참는 그 맛. 짭짤, 달콤한 불고기에 모짜렐라가 듬뿍.",
+          "image": "/menu/bulgogi.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 21000,
+              "pickup": 21000
+            },
+            {
+              "size": "대",
+              "delivery": 25000,
+              "pickup": 25000
+            }
+          ]
+        },
+        {
+          "name": "콤비네이션",
+          "desc": "고민될 땐 그냥 콤비네이션. 모두가 좋아하는 토핑이 한 판에 다 들었어.",
+          "badges": [
+            "인기"
+          ],
+          "image": "/menu/combination.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 21000,
+              "pickup": 21000
+            },
+            {
+              "size": "대",
+              "delivery": 25000,
+              "pickup": 25000
+            }
+          ]
+        },
+        {
+          "name": "페파로니",
+          "desc": "S급 페파로니로 피자 한판 꽉 차게. 피맥에도 1등 안주",
+          "badges": [
+            "사장님 추천"
+          ],
+          "image": "/menu/pepperoni.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 21000,
+              "pickup": 21000
+            },
+            {
+              "size": "대",
+              "delivery": 25000,
+              "pickup": 25000
+            }
+          ]
+        },
+        {
+          "name": "달콤한 고구마무스",
+          "desc": "디저트야 피자야. 둘 다. 달콤한 고구마무스가 듬뿍 올라간 한 판.",
+          "image": "/menu/sweetpotato-mousse.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 21000,
+              "pickup": 21000
+            },
+            {
+              "size": "대",
+              "delivery": 25000,
+              "pickup": 25000
+            }
+          ]
+        },
+        {
+          "name": "담백한 포테이토",
+          "desc": "감자 본연의 담백하고 부드러운 풍미가 깊게 배어 나오는 담백한 맛",
+          "image": "/menu/potato.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 21000,
+              "pickup": 21000
+            },
+            {
+              "size": "대",
+              "delivery": 25000,
+              "pickup": 25000
+            }
+          ]
+        },
+        {
+          "name": "포테이토베이컨",
+          "desc": "주름감자와 베이컨 그리고 마무리로 치즈드레싱까지 뿌리면 이거는 와...",
+          "badges": [
+            "사장님 추천"
+          ],
+          "image": "/menu/potato-bacon.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 23000,
+              "pickup": 23000
+            },
+            {
+              "size": "대",
+              "delivery": 27000,
+              "pickup": 27000
+            }
+          ]
+        },
+        {
+          "name": "화끈한 핫치킨",
+          "desc": "매운맛 좋아하면, 이거. 입안에서 불꽃놀이가...",
+          "image": "/menu/hot-chicken.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 23000,
+              "pickup": 23000
+            },
+            {
+              "size": "대",
+              "delivery": 27000,
+              "pickup": 27000
+            }
+          ]
+        },
+        {
+          "name": "푸짐한 고기콤보",
+          "desc": "치킨과 불고기 그리고 감자까지 합쳐진 삼합을 한입에",
+          "image": "/menu/meat-combo.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 23000,
+              "pickup": 23000
+            },
+            {
+              "size": "대",
+              "delivery": 27000,
+              "pickup": 27000
+            }
+          ]
+        },
+        {
+          "name": "베이컨체다",
+          "desc": "치즈와 베이컨이 한 일은 늘 옳다. 고소한 체다치즈와 짭조름한 베이컨의 만남",
+          "image": "/menu/bacon-cheddar.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 21000,
+              "pickup": 21000
+            },
+            {
+              "size": "대",
+              "delivery": 25000,
+              "pickup": 25000
+            }
+          ]
+        },
+        {
+          "name": "상큼한 하와이안",
+          "desc": "파인애플 좋아하면 무조건. 달콤한 파인애플과 햄의 상큼한 조합",
+          "image": "/menu/hawaiian.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 21000,
+              "pickup": 21000
+            },
+            {
+              "size": "대",
+              "delivery": 25000,
+              "pickup": 25000
+            }
+          ]
+        },
+        {
+          "name": "고르곤졸라",
+          "desc": "꿀 찍어 먹는 그 맛. 콤콤한 고르곤졸라치즈를 달달한 꿀에 찍어서",
+          "image": "/menu/gorgonzola.jpg",
+          "options": [
+            {
+              "size": "대",
+              "delivery": 24000,
+              "pickup": 24000
+            }
+          ]
+        },
+        {
+          "name": "치즈피자",
+          "desc": "풍미 가득한 치즈에 톡톡 터지는 옥수수만 느끼고 싶다",
+          "image": "/menu/cheese.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 20000,
+              "pickup": 20000
+            },
+            {
+              "size": "대",
+              "delivery": 24000,
+              "pickup": 24000
+            }
+          ]
+        },
+        {
+          "name": "통고구마",
+          "desc": "우리가 아는 그 고구마. 부모님들 최애 피자",
+          "image": "/menu/sweetpotato.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 21000,
+              "pickup": 21000
+            },
+            {
+              "size": "대",
+              "delivery": 25000,
+              "pickup": 25000
+            }
+          ]
+        },
+        {
+          "name": "스모키 치킨바베큐",
+          "desc": "스모키한 바베큐 치킨과 달콤 짭짤한 BBQ 소스가 만나",
+          "image": "/menu/smoky-bbq.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 21000,
+              "pickup": 21000
+            },
+            {
+              "size": "대",
+              "delivery": 25000,
+              "pickup": 25000
+            }
+          ]
+        },
+        {
+          "name": "핫불고기",
+          "desc": "평범한 불고기가 심심할 때, 매운 핫소스와 할라피뇨 가득~",
+          "image": "/menu/hot-bulgogi.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 23000,
+              "pickup": 23000
+            },
+            {
+              "size": "대",
+              "delivery": 27000,
+              "pickup": 27000
+            }
+          ]
+        },
+        {
+          "name": "쉬림프",
+          "desc": "한 입에 큼직한 새우. 바다가 입안에 쏵~",
+          "image": "/menu/shrimp.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 25000,
+              "pickup": 25000
+            },
+            {
+              "size": "대",
+              "delivery": 29000,
+              "pickup": 29000
+            }
+          ]
+        },
+        {
+          "name": "핫쉬림프",
+          "desc": "새우는 큼직, 양념은 화끈. 한 입 먹으면 자꾸 들이게 되는 매콤함",
+          "image": "/menu/hot-shrimp.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 25000,
+              "pickup": 25000
+            },
+            {
+              "size": "대",
+              "delivery": 29000,
+              "pickup": 29000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "side",
+      "name": "사이드 메뉴",
+      "items": [
+        {
+          "name": "크림스파게티",
+          "image": "/menu/cream-spaghetti.jpg",
+          "options": [
+            {
+              "delivery": 7000,
+              "pickup": 7000
+            }
+          ]
+        },
+        {
+          "name": "치즈오븐스파게티",
+          "image": "/menu/cheese-oven-spaghetti.jpg",
+          "options": [
+            {
+              "delivery": 7000,
+              "pickup": 7000
+            }
+          ]
+        },
+        {
+          "name": "연유치즈피자",
+          "desc": "달달한 연유가 뿌려진 연유피자",
+          "image": "/menu/condensed-cheese.jpg",
+          "options": [
+            {
+              "delivery": 8000,
+              "pickup": 8000
+            }
+          ]
+        },
+        {
+          "name": "윙봉",
+          "desc": "6조각",
+          "image": "/menu/wing.jpg",
+          "options": [
+            {
+              "delivery": 6500,
+              "pickup": 6500
+            }
+          ]
+        },
+        {
+          "name": "떡볶이",
+          "image": "/menu/tteokbokki.jpg",
+          "options": [
+            {
+              "delivery": 6000,
+              "pickup": 6000
+            }
+          ]
+        },
+        {
+          "name": "치즈볼",
+          "desc": "6개",
+          "image": "/menu/cheeseball.jpg",
+          "options": [
+            {
+              "delivery": 6000,
+              "pickup": 6000
+            }
+          ]
+        },
+        {
+          "name": "새우링",
+          "desc": "6개",
+          "image": "/menu/shrimp-ring.jpg",
+          "options": [
+            {
+              "delivery": 6000,
+              "pickup": 6000
+            }
+          ]
+        },
+        {
+          "name": "훈제치킨",
+          "image": "/menu/smoked-chicken.jpg",
+          "options": [
+            {
+              "delivery": 14000,
+              "pickup": 14000
+            }
+          ]
+        },
+        {
+          "name": "한입핫도그",
+          "desc": "10개",
+          "image": "/menu/hotdog.jpg",
+          "options": [
+            {
+              "delivery": 4500,
+              "pickup": 4500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hangeurit",
+      "name": "한그릇 세트 (1인)",
+      "items": [
+        {
+          "name": "1인 피자 + 코카콜라 500ml",
+          "badges": [
+            "한그릇 할인"
+          ],
+          "image": "/menu/solo-set.jpg",
+          "options": [
+            {
+              "delivery": 12000,
+              "pickup": 12000,
+              "original": 15000,
+              "discount": 20
+            }
+          ]
+        },
+        {
+          "name": "1인 피자",
+          "badges": [
+            "한그릇 할인"
+          ],
+          "image": "/menu/solo-pizza.jpg",
+          "options": [
+            {
+              "delivery": 11200,
+              "pickup": 11200,
+              "original": 14000,
+              "discount": 20
+            }
+          ]
+        },
+        {
+          "name": "1인 반반피자",
+          "badges": [
+            "한그릇 할인",
+            "인기"
+          ],
+          "image": "/menu/solo-banban.jpg",
+          "options": [
+            {
+              "delivery": 12000,
+              "pickup": 12000,
+              "original": 15000,
+              "discount": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

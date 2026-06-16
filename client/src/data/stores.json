@@ -1,0 +1,55 @@
+{
+  "updatedAt": "2026-06-15",
+  "note": "네오피자 매장 목록. 구미점(신시로10길) 제외. region = 시/도 기준 그룹.",
+  "regions": ["대구", "부산", "경남", "경기", "경북", "대전", "울산", "충북", "광주", "서울", "제주", "충남"],
+  "stores": [
+    { "id": "daegu-jikyoung", "name": "네오피자 직영점", "region": "대구", "address": "대구 동구 동부로 32", "phone": "1544-4538", "type": "직영" },
+    { "id": "daegu-namgu", "name": "네오피자 대구남구점", "region": "대구", "address": "대구 남구 자유로 40 (대명동)", "phone": "053-625-4538", "type": "가맹" },
+    { "id": "daegu-sangin", "name": "네오피자 대구상인점", "region": "대구", "address": "대구 달서구 상화로7길 98", "phone": "053-631-3330", "type": "가맹" },
+    { "id": "daegu-seongseo", "name": "네오피자 대구성서점", "region": "대구", "address": "대구 달서구 선원로11길 26 (신당동) 지상1층", "phone": "053-555-1268", "type": "가맹" },
+    { "id": "daegu-hyeonpung", "name": "네오피자 현풍점", "region": "대구", "address": "대구 달성군 현풍면 현풍동로19길 16-1 (상리) 호박쉐르빌 1층", "phone": "053-611-2108", "type": "가맹" },
+    { "id": "daegu-banyawol", "name": "네오피자 대구반야월점", "region": "대구", "address": "대구 동구 율하동로24길 70 (서호동) 1층", "phone": "053-957-6666", "type": "가맹" },
+    { "id": "daegu-donggu", "name": "네오피자 대구동구점", "region": "대구", "address": "대구 동구 해동로6길 32 (불로동)", "phone": "053-983-4577", "type": "가맹" },
+    { "id": "daegu-chilgok", "name": "네오피자 대구칠곡점", "region": "대구", "address": "대구 북구 구암로17길 4-8", "phone": "053-312-4540", "type": "가맹" },
+    { "id": "daegu-seogu", "name": "네오피자 대구서구점", "region": "대구", "address": "대구 서구 달구벌대로371길 40-2", "phone": "053-572-4507", "type": "가맹" },
+    { "id": "daegu-suseong", "name": "네오피자 대구수성점", "region": "대구", "address": "대구 수성구 지산로14안길 5", "phone": "053-761-4538", "type": "가맹" },
+
+    { "id": "busan-namgu", "name": "네오피자 부산남구점", "region": "부산", "address": "부산 남구 유엔평화로149 (용당동) 2층", "phone": "051-626-4538", "type": "가맹" },
+    { "id": "busan-gaya", "name": "네오피자 부산가야점", "region": "부산", "address": "부산 부산진구 가야대로588번길 34 (가야동) 1층 105호(스위트캐슬)", "phone": "051-897-4541", "type": "가맹" },
+    { "id": "busan-yangjeong", "name": "네오피자 부산양정점", "region": "부산", "address": "부산 부산진구 연제로9번길 44-3 (양정동) 1층", "phone": "051-852-4540", "type": "가맹" },
+    { "id": "busan-bukgu", "name": "네오피자 부산북구점", "region": "부산", "address": "부산 북구 금곡대로 106", "phone": "051-714-6886", "type": "가맹" },
+    { "id": "busan-saha", "name": "네오피자 부산사하점", "region": "부산", "address": "부산 사하구 승학로 176 (괴정동) 2층", "phone": "051-203-4523", "type": "가맹" },
+    { "id": "busan-suyeong", "name": "네오피자 부산수영점", "region": "부산", "address": "부산 수영구 감포로48번길 10", "phone": "051-754-0333", "type": "가맹" },
+
+    { "id": "gyeongnam-geoje", "name": "네오피자 거제고현점", "region": "경남", "address": "경남 거제시 고현로2길 8", "phone": "055-633-8281", "type": "가맹" },
+    { "id": "gyeongnam-miryang", "name": "네오피자 밀양수산점", "region": "경남", "address": "경남 밀양시 하남읍 수산복개길 30 (수산리) 1층", "phone": "055-391-1769", "type": "가맹" },
+    { "id": "gyeongnam-jinju", "name": "네오피자 진주점", "region": "경남", "address": "경남 진주시 진양호로 425", "phone": "055-795-6788", "type": "가맹" },
+    { "id": "gyeongnam-changwon", "name": "네오피자 창원점", "region": "경남", "address": "경남 창원시 성산구 신사로 101-1", "phone": "055-282-4944", "type": "가맹" },
+
+    { "id": "gyeonggi-suwon", "name": "네오피자 수원장안점", "region": "경기", "address": "경기 수원시 장안구 대평로52번길 84", "phone": "031-242-4659", "type": "가맹" },
+    { "id": "gyeonggi-icheon", "name": "네오피자 이천점", "region": "경기", "address": "경기 이천시 증신로291번길 98", "phone": "031-638-0561", "type": "가맹" },
+    { "id": "gyeonggi-poseung", "name": "네오피자 포승점", "region": "경기", "address": "경기 평택시 포승읍 포승원정길 35-8", "phone": "031-683-8887", "type": "가맹" },
+
+    { "id": "gyeongbuk-gumi-indong", "name": "네오피자 구미인동점", "region": "경북", "address": "경북 구미시 수출대로21길 6-1 (황상동)", "phone": "054-472-6355", "type": "가맹" },
+    { "id": "gyeongbuk-uljin", "name": "네오피자 울진북면점", "region": "경북", "address": "경북 울진군 북면 울진북로 2120", "phone": "054-782-8885", "type": "가맹" },
+    { "id": "gyeongbuk-pohang", "name": "네오피자 포항북구점", "region": "경북", "address": "경북 포항시 북구 장량로32번길 8 (장성동) 상가동 1층", "phone": "054-612-6060", "type": "가맹" },
+
+    { "id": "daejeon-gao", "name": "네오피자 대전가오점", "region": "대전", "address": "대전 동구 대전로 453 (가오동)", "phone": "042-271-4522", "type": "가맹" },
+    { "id": "daejeon-donggu", "name": "네오피자 대전동구점", "region": "대전", "address": "대전 동구 충정로130번길 58 (가양동) 1층", "phone": "042-633-4538", "type": "가맹" },
+    { "id": "daejeon-seogu", "name": "네오피자 대전서구점", "region": "대전", "address": "대전 서구 갈마로147번길 4", "phone": "1522-1373", "type": "가맹" },
+
+    { "id": "ulsan-mugeo", "name": "네오피자 울산무거굴화점", "region": "울산", "address": "울산 남구 신복로21번길 3-1", "phone": "052-224-2233", "type": "가맹" },
+    { "id": "ulsan-donggu", "name": "네오피자 울산동구점", "region": "울산", "address": "울산 동구 양지5길 12 (화정동)", "phone": "052-233-3310", "type": "가맹" },
+
+    { "id": "chungbuk-cheongju2", "name": "네오피자 청주2호점", "region": "충북", "address": "충북 청주시 상당구 용암로 96", "phone": "043-463-3922", "type": "가맹" },
+    { "id": "chungbuk-cheongju1", "name": "네오피자 청주1호점", "region": "충북", "address": "충북 청주시 서원구 봉명로142번길 45", "phone": "043-260-4538", "type": "가맹" },
+
+    { "id": "gwangju-seogu", "name": "네오피자 광주서구점", "region": "광주", "address": "광주 서구 금부로95번길 17", "phone": "062-385-7174", "type": "가맹" },
+
+    { "id": "seoul-gangdong", "name": "네오피자 서울강동점", "region": "서울", "address": "서울 강동구 천중로39길 55 (천호동) 1층", "phone": "02-489-1314", "type": "가맹" },
+
+    { "id": "jeju-oedo", "name": "네오피자 제주외도점", "region": "제주", "address": "제주특별자치도 제주시 우정로 90", "phone": "064-712-2350", "type": "가맹" },
+
+    { "id": "chungnam-cheonan", "name": "네오피자 천안점", "region": "충남", "address": "충남 천안시 서북구 부성1길 28-5", "phone": "041-567-2889", "type": "가맹" }
+  ]
+}

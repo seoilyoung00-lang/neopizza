@@ -91,3 +91,12 @@
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
   color: transparent;
 }
+
+/* 가로 스크롤 영역(지역 필터 탭)의 스크롤바 숨김 */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
