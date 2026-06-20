@@ -11,7 +11,7 @@ const steps = [
 
 export default function FranchiseProcess() {
   return (
-    <section className="py-24 bg-[#2E5266] text-white">
+    <section className="py-24 bg-[#005F73] text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <motion.p

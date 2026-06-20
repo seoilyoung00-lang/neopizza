@@ -6,7 +6,7 @@ const events = [
     title: "쪽파크림치즈피자 신메뉴 출시",
     date: "2025.01 ~ 상시",
     badgeText: "진행중",
-    bgColor: "bg-[#2E5266]",
+    bgColor: "bg-[#005F73]",
     badgeColor: "bg-primary"
   },
   {
@@ -23,7 +23,7 @@ const events = [
     date: "2025년 상시 모집중",
     badgeText: "모집중",
     bgColor: "bg-primary",
-    badgeColor: "bg-[#2E5266]"
+    badgeColor: "bg-[#005F73]"
   }
 ];
 

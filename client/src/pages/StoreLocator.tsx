@@ -60,7 +60,7 @@ export default function StoreLocator() {
       <Nav />
 
       {/* 헤더 */}
-      <section className="relative pt-32 pb-12 bg-[#1E3F52] text-white">
+      <section className="relative pt-32 pb-12 bg-[#004858] text-white">
         <div className="container mx-auto px-4">
           <Link
             href="/"
@@ -92,7 +92,7 @@ export default function StoreLocator() {
                   className={`shrink-0 px-4 py-2 rounded-full text-sm font-bold transition-colors ${
                     isActive
                       ? "bg-primary text-white shadow-md shadow-primary/30"
-                      : "bg-white text-secondary hover:bg-[#2E5266]/10 border border-black/5"
+                      : "bg-white text-secondary hover:bg-[#005F73]/10 border border-black/5"
                   }`}
                 >
                   {tab.label}{" "}
@@ -131,14 +131,14 @@ export default function StoreLocator() {
 
                 <div className="space-y-2 text-sm text-muted-foreground mb-5 flex-1">
                   <p className="flex items-start gap-2">
-                    <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-[#2E5266]" />
+                    <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-[#005F73]" />
                     <span>{store.address}</span>
                   </p>
                   <a
                     href={`tel:${store.phone}`}
                     className="flex items-center gap-2 hover:text-primary transition-colors w-fit"
                   >
-                    <Phone className="w-4 h-4 shrink-0 text-[#2E5266]" />
+                    <Phone className="w-4 h-4 shrink-0 text-[#005F73]" />
                     <span className="font-medium">{store.phone}</span>
                   </a>
                 </div>
@@ -147,7 +147,7 @@ export default function StoreLocator() {
                   href={kakaoMapUrl(store)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-[#2E5266] hover:bg-[#254557] text-white font-bold text-sm py-3 px-4 rounded-xl transition-colors"
+                  className="inline-flex items-center justify-center gap-2 bg-[#005F73] hover:bg-[#004858] text-white font-bold text-sm py-3 px-4 rounded-xl transition-colors"
                 >
                   <Navigation className="w-4 h-4" />
                   카카오맵 길찾기

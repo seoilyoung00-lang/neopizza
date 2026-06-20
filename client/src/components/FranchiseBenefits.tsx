@@ -41,7 +41,7 @@ export default function FranchiseBenefits() {
         >
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16 items-start">
             <div className="lg:col-span-3">
-              <span className="text-sm text-[#2E5266] font-bold mb-4 block">(주)네오에프앤비 가맹 안내</span>
+              <span className="text-sm text-[#005F73] font-bold mb-4 block">(주)네오에프앤비 가맹 안내</span>
               <h2 className="text-3xl md:text-4xl font-black text-secondary mb-6 leading-tight">
                 탄탄한 본사와 함께할<br />성공 파트너를 모십니다.
               </h2>
@@ -64,7 +64,7 @@ export default function FranchiseBenefits() {
 
               <a
                 href="tel:16704538"
-                className="inline-flex items-center gap-2 bg-[#2E5266] hover:bg-[#254557] text-white font-bold text-lg py-4 px-8 rounded-full transition-colors shadow-lg"
+                className="inline-flex items-center gap-2 bg-[#005F73] hover:bg-[#004858] text-white font-bold text-lg py-4 px-8 rounded-full transition-colors shadow-lg"
               >
                 📞 1670-4538 상담 전화
               </a>
@@ -96,7 +96,7 @@ export default function FranchiseBenefits() {
           className="max-w-7xl mx-auto mt-12 lg:mt-16"
         >
           <div className="text-center mb-10">
-            <span className="text-sm text-[#2E5266] font-bold mb-3 block">A to Z 토탈 케어</span>
+            <span className="text-sm text-[#005F73] font-bold mb-3 block">A to Z 토탈 케어</span>
             <h2 className="text-3xl md:text-4xl font-black text-secondary leading-tight">
               본사 지원 시스템
             </h2>
@@ -139,7 +139,7 @@ export default function FranchiseBenefits() {
                   key={s.title}
                   className="bg-[#F7F4E9] rounded-2xl p-6 border border-gray-100 hover:shadow-md transition-shadow"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-[#2E5266] flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 rounded-xl bg-[#005F73] flex items-center justify-center mb-4">
                     <Icon className="w-6 h-6 text-white" />
                   </div>
                   <h4 className="font-bold text-secondary text-lg mb-1">{s.title}</h4>

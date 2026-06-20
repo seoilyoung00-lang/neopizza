@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function WhyNeoPizza() {
   return (
-    <section id="story" className="py-24 bg-[#2E5266] text-white relative overflow-hidden">
+    <section id="story" className="py-24 bg-[#005F73] text-white relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-7xl mx-auto">
           <motion.div

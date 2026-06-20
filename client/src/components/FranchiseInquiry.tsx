@@ -93,7 +93,7 @@ export default function FranchiseInquiry() {
     <section
       id="inquiry"
       className="py-24 relative"
-      style={{ background: "linear-gradient(135deg, #2E5266 0%, #1E3F52 100%)" }}
+      style={{ background: "linear-gradient(135deg, #005F73 0%, #004858 100%)" }}
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 md:mb-16">

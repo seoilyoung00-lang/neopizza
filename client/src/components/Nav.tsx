@@ -41,7 +41,7 @@ export default function Nav() {
           ? "shadow-sm py-4"
           : "bg-transparent py-6"
       }`}
-      style={isScrolled ? { backgroundColor: 'rgba(30, 67, 85, 0.92)', backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)' } : {}}
+      style={isScrolled ? { backgroundColor: 'rgba(0, 95, 115, 0.92)', backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)' } : {}}
     >
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between">

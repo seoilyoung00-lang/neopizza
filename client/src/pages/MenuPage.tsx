@@ -42,7 +42,7 @@ function badgeClass(badge: string) {
     case "인기":
       return "bg-primary text-white"; // 오렌지
     case "사장님 추천":
-      return "bg-[#2E5266] text-white"; // 틸
+      return "bg-[#005F73] text-white"; // 틸
     case "한그릇 할인":
       return "bg-[#B91C1C] text-white"; // 할인 강조(레드)
     default:
@@ -55,7 +55,7 @@ function PriceLine({ opt }: { opt: MenuOption }) {
   return (
     <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
       {opt.size && (
-        <span className="text-xs font-bold text-white bg-[#2E5266] rounded px-1.5 py-0.5">
+        <span className="text-xs font-bold text-white bg-[#005F73] rounded px-1.5 py-0.5">
           {opt.size}
         </span>
       )}
@@ -124,7 +124,7 @@ export default function MenuPage() {
       <Nav />
 
       {/* 헤더 */}
-      <section className="relative pt-32 pb-12 bg-[#1E3F52] text-white">
+      <section className="relative pt-32 pb-12 bg-[#004858] text-white">
         <div className="container mx-auto px-4">
           <Link
             href="/"
@@ -215,7 +215,7 @@ export default function MenuPage() {
                           className="w-24 h-24 md:w-28 md:h-28 rounded-xl object-cover bg-[#F7F4E9]"
                         />
                       ) : (
-                        <div className="w-24 h-24 md:w-28 md:h-28 rounded-xl bg-[#F7F4E9] border border-black/5 flex items-center justify-center text-[#2E5266]/40">
+                        <div className="w-24 h-24 md:w-28 md:h-28 rounded-xl bg-[#F7F4E9] border border-black/5 flex items-center justify-center text-[#005F73]/40">
                           <ImageIcon className="w-8 h-8" />
                         </div>
                       )}

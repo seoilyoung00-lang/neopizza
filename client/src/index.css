@@ -38,24 +38,24 @@
 :root {
   /* Brand Colors 
      Primary Orange: #E8622A -> 17.7 80.5% 53.7%
-     Dark Teal: #2C5F78 -> 199.7 46.3% 32.2%
+     Dark Teal: #005F73 -> 190 100% 22.5%
      White: #FFFFFF -> 0 0% 100%
      Light Gray: #F9F9F9 -> 0 0% 97.6%
   */
   
   --background: 0 0% 97.6%;
-  --foreground: 199.7 46.3% 32.2%;
+  --foreground: 190 100% 22.5%;
   
   --card: 0 0% 100%;
-  --card-foreground: 199.7 46.3% 32.2%;
+  --card-foreground: 190 100% 22.5%;
   
   --popover: 0 0% 100%;
-  --popover-foreground: 199.7 46.3% 32.2%;
+  --popover-foreground: 190 100% 22.5%;
   
   --primary: 17.7 80.5% 53.7%;
   --primary-foreground: 0 0% 100%;
   
-  --secondary: 199.7 46.3% 32.2%;
+  --secondary: 190 100% 22.5%;
   --secondary-foreground: 0 0% 100%;
   
   --muted: 0 0% 90%;

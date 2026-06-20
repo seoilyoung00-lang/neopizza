@@ -38,7 +38,7 @@ export default function Home() {
       <FranchiseInquiry />
       <Events />
 
-      <footer className="bg-[#1E3F52] py-16 text-white/60">
+      <footer className="bg-[#004858] py-16 text-white/60">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 border-b border-white/10 pb-10 mb-10">
             <div>

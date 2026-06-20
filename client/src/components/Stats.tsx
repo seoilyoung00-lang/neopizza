@@ -41,7 +41,7 @@ export default function Stats() {
               <h3 className="text-4xl md:text-5xl font-black text-primary font-poppins mb-4 tracking-tighter">
                 {stat.value}
               </h3>
-              <h4 className="text-xl font-bold text-[#2E5266] mb-2">
+              <h4 className="text-xl font-bold text-[#005F73] mb-2">
                 {stat.label}
               </h4>
               <p className="text-muted-foreground font-medium">
