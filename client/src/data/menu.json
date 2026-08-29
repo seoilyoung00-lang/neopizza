@@ -12,8 +12,8 @@
           "image": "/menu/set-couple.jpg",
           "options": [
             {
-              "delivery": 28000,
-              "pickup": 28000
+              "delivery": 31000,
+              "pickup": 31000
             }
           ]
         },
@@ -23,8 +23,8 @@
           "image": "/menu/set-friend.jpg",
           "options": [
             {
-              "delivery": 36000,
-              "pickup": 36000
+              "delivery": 39000,
+              "pickup": 39000
             }
           ]
         },
@@ -34,8 +34,8 @@
           "image": "/menu/set-family.jpg",
           "options": [
             {
-              "delivery": 44000,
-              "pickup": 44000
+              "delivery": 47000,
+              "pickup": 47000
             }
           ]
         },
@@ -45,8 +45,8 @@
           "image": "/menu/set-group.jpg",
           "options": [
             {
-              "delivery": 55000,
-              "pickup": 55000
+              "delivery": 59000,
+              "pickup": 59000
             }
           ]
         }
@@ -67,13 +67,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 22000,
-              "pickup": 22000
+              "delivery": 25000,
+              "pickup": 25000
             },
             {
               "size": "대",
-              "delivery": 26000,
-              "pickup": 26000
+              "delivery": 29000,
+              "pickup": 29000
             }
           ]
         }
@@ -93,8 +93,8 @@
           "image": "/menu/twopan-1.png",
           "options": [
             {
-              "delivery": 33000,
-              "pickup": 33000
+              "delivery": 37000,
+              "pickup": 37000
             }
           ]
         },
@@ -107,8 +107,8 @@
           "image": "/menu/twopan-2.png",
           "options": [
             {
-              "delivery": 41000,
-              "pickup": 41000
+              "delivery": 45000,
+              "pickup": 45000
             }
           ]
         },
@@ -118,8 +118,8 @@
           "image": "/menu/twopan-3.png",
           "options": [
             {
-              "delivery": 41000,
-              "pickup": 41000
+              "delivery": 45000,
+              "pickup": 45000
             }
           ]
         }
@@ -139,13 +139,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 23000,
-              "pickup": 23000
+              "delivery": 25000,
+              "pickup": 25000
             },
             {
               "size": "대",
-              "delivery": 27000,
-              "pickup": 27000
+              "delivery": 29000,
+              "pickup": 29000
             }
           ]
         },
@@ -159,13 +159,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 23000,
-              "pickup": 23000
+              "delivery": 25000,
+              "pickup": 25000
             },
             {
               "size": "대",
-              "delivery": 27000,
-              "pickup": 27000
+              "delivery": 29000,
+              "pickup": 29000
             }
           ]
         },
@@ -176,13 +176,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 21000,
-              "pickup": 21000
+              "delivery": 24000,
+              "pickup": 24000
             },
             {
               "size": "대",
-              "delivery": 25000,
-              "pickup": 25000
+              "delivery": 28000,
+              "pickup": 28000
             }
           ]
         },
@@ -196,13 +196,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 21000,
-              "pickup": 21000
+              "delivery": 23000,
+              "pickup": 23000
             },
             {
               "size": "대",
-              "delivery": 25000,
-              "pickup": 25000
+              "delivery": 27000,
+              "pickup": 27000
             }
           ]
         },
@@ -216,13 +216,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 21000,
-              "pickup": 21000
+              "delivery": 23000,
+              "pickup": 23000
             },
             {
               "size": "대",
-              "delivery": 25000,
-              "pickup": 25000
+              "delivery": 27000,
+              "pickup": 27000
             }
           ]
         },
@@ -233,13 +233,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 21000,
-              "pickup": 21000
+              "delivery": 23000,
+              "pickup": 23000
             },
             {
               "size": "대",
-              "delivery": 25000,
-              "pickup": 25000
+              "delivery": 27000,
+              "pickup": 27000
             }
           ]
         },
@@ -250,13 +250,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 21000,
-              "pickup": 21000
+              "delivery": 23000,
+              "pickup": 23000
             },
             {
               "size": "대",
-              "delivery": 25000,
-              "pickup": 25000
+              "delivery": 27000,
+              "pickup": 27000
             }
           ]
         },
@@ -270,13 +270,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 23000,
-              "pickup": 23000
+              "delivery": 25000,
+              "pickup": 25000
             },
             {
               "size": "대",
-              "delivery": 27000,
-              "pickup": 27000
+              "delivery": 29000,
+              "pickup": 29000
             }
           ]
         },
@@ -287,13 +287,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 23000,
-              "pickup": 23000
+              "delivery": 25000,
+              "pickup": 25000
             },
             {
               "size": "대",
-              "delivery": 27000,
-              "pickup": 27000
+              "delivery": 29000,
+              "pickup": 29000
             }
           ]
         },
@@ -304,13 +304,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 23000,
-              "pickup": 23000
+              "delivery": 25000,
+              "pickup": 25000
             },
             {
               "size": "대",
-              "delivery": 27000,
-              "pickup": 27000
+              "delivery": 29000,
+              "pickup": 29000
             }
           ]
         },
@@ -321,13 +321,13 @@
           "options": [
             {
               "size": "중",
-              "delivery": 21000,
-              "pickup": 21000
+              "delivery": 24000,
+              "pickup": 24000
             },
             {
               "size": "대",
-              "delivery": 25000,
-              "pickup": 25000
+              "delivery": 28000,
+              "pickup": 28000
             }
           ]
         },
@@ -335,86 +335,6 @@
           "name": "상큼한 하와이안",
           "desc": "파인애플 좋아하면 무조건. 달콤한 파인애플과 햄의 상큼한 조합",
           "image": "/menu/hawaiian.jpg",
-          "options": [
-            {
-              "size": "중",
-              "delivery": 21000,
-              "pickup": 21000
-            },
-            {
-              "size": "대",
-              "delivery": 25000,
-              "pickup": 25000
-            }
-          ]
-        },
-        {
-          "name": "고르곤졸라",
-          "desc": "꿀 찍어 먹는 그 맛. 콤콤한 고르곤졸라치즈를 달달한 꿀에 찍어서",
-          "image": "/menu/gorgonzola.jpg",
-          "options": [
-            {
-              "size": "대",
-              "delivery": 24000,
-              "pickup": 24000
-            }
-          ]
-        },
-        {
-          "name": "치즈피자",
-          "desc": "풍미 가득한 치즈에 톡톡 터지는 옥수수만 느끼고 싶다",
-          "image": "/menu/cheese.jpg",
-          "options": [
-            {
-              "size": "중",
-              "delivery": 20000,
-              "pickup": 20000
-            },
-            {
-              "size": "대",
-              "delivery": 24000,
-              "pickup": 24000
-            }
-          ]
-        },
-        {
-          "name": "통고구마",
-          "desc": "우리가 아는 그 고구마. 부모님들 최애 피자",
-          "image": "/menu/sweetpotato.jpg",
-          "options": [
-            {
-              "size": "중",
-              "delivery": 21000,
-              "pickup": 21000
-            },
-            {
-              "size": "대",
-              "delivery": 25000,
-              "pickup": 25000
-            }
-          ]
-        },
-        {
-          "name": "스모키 치킨바베큐",
-          "desc": "스모키한 바베큐 치킨과 달콤 짭짤한 BBQ 소스가 만나",
-          "image": "/menu/smoky-bbq.jpg",
-          "options": [
-            {
-              "size": "중",
-              "delivery": 21000,
-              "pickup": 21000
-            },
-            {
-              "size": "대",
-              "delivery": 25000,
-              "pickup": 25000
-            }
-          ]
-        },
-        {
-          "name": "핫불고기",
-          "desc": "평범한 불고기가 심심할 때, 매운 핫소스와 할라피뇨 가득~",
-          "image": "/menu/hot-bulgogi.jpg",
           "options": [
             {
               "size": "중",
@@ -429,9 +349,72 @@
           ]
         },
         {
-          "name": "쉬림프",
-          "desc": "한 입에 큼직한 새우. 바다가 입안에 쏵~",
-          "image": "/menu/shrimp.jpg",
+          "name": "고르곤졸라",
+          "desc": "꿀 찍어 먹는 그 맛. 콤콤한 고르곤졸라치즈를 달달한 꿀에 찍어서",
+          "image": "/menu/gorgonzola.jpg",
+          "options": [
+            {
+              "size": "대",
+              "delivery": 26000,
+              "pickup": 26000
+            }
+          ]
+        },
+        {
+          "name": "치즈피자",
+          "desc": "풍미 가득한 치즈에 톡톡 터지는 옥수수만 느끼고 싶다",
+          "image": "/menu/cheese.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 22000,
+              "pickup": 22000
+            },
+            {
+              "size": "대",
+              "delivery": 26000,
+              "pickup": 26000
+            }
+          ]
+        },
+        {
+          "name": "통고구마",
+          "desc": "우리가 아는 그 고구마. 부모님들 최애 피자",
+          "image": "/menu/sweetpotato.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 23000,
+              "pickup": 23000
+            },
+            {
+              "size": "대",
+              "delivery": 27000,
+              "pickup": 27000
+            }
+          ]
+        },
+        {
+          "name": "스모키 치킨바베큐",
+          "desc": "스모키한 바베큐 치킨과 달콤 짭짤한 BBQ 소스가 만나",
+          "image": "/menu/smoky-bbq.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 23000,
+              "pickup": 23000
+            },
+            {
+              "size": "대",
+              "delivery": 27000,
+              "pickup": 27000
+            }
+          ]
+        },
+        {
+          "name": "핫불고기",
+          "desc": "평범한 불고기가 심심할 때, 매운 핫소스와 할라피뇨 가득~",
+          "image": "/menu/hot-bulgogi.jpg",
           "options": [
             {
               "size": "중",
@@ -446,19 +429,36 @@
           ]
         },
         {
+          "name": "쉬림프",
+          "desc": "한 입에 큼직한 새우. 바다가 입안에 쏵~",
+          "image": "/menu/shrimp.jpg",
+          "options": [
+            {
+              "size": "중",
+              "delivery": 28000,
+              "pickup": 28000
+            },
+            {
+              "size": "대",
+              "delivery": 32000,
+              "pickup": 32000
+            }
+          ]
+        },
+        {
           "name": "핫쉬림프",
           "desc": "새우는 큼직, 양념은 화끈. 한 입 먹으면 자꾸 들이게 되는 매콤함",
           "image": "/menu/hot-shrimp.jpg",
           "options": [
             {
               "size": "중",
-              "delivery": 25000,
-              "pickup": 25000
+              "delivery": 28000,
+              "pickup": 28000
             },
             {
               "size": "대",
-              "delivery": 29000,
-              "pickup": 29000
+              "delivery": 32000,
+              "pickup": 32000
             }
           ]
         }
@@ -473,8 +473,8 @@
           "image": "/menu/cream-spaghetti.jpg",
           "options": [
             {
-              "delivery": 7000,
-              "pickup": 7000
+              "delivery": 7500,
+              "pickup": 7500
             }
           ]
         },
@@ -483,8 +483,8 @@
           "image": "/menu/cheese-oven-spaghetti.jpg",
           "options": [
             {
-              "delivery": 7000,
-              "pickup": 7000
+              "delivery": 7500,
+              "pickup": 7500
             }
           ]
         },
@@ -500,13 +500,13 @@
           ]
         },
         {
-          "name": "윙봉",
+          "name": "핫윙봉",
           "desc": "6조각",
           "image": "/menu/wing.jpg",
           "options": [
             {
-              "delivery": 6500,
-              "pickup": 6500
+              "delivery": 7000,
+              "pickup": 7000
             }
           ]
         },
@@ -515,8 +515,8 @@
           "image": "/menu/tteokbokki.jpg",
           "options": [
             {
-              "delivery": 6000,
-              "pickup": 6000
+              "delivery": 6500,
+              "pickup": 6500
             }
           ]
         },
@@ -547,8 +547,8 @@
           "image": "/menu/smoked-chicken.jpg",
           "options": [
             {
-              "delivery": 14000,
-              "pickup": 14000
+              "delivery": 15000,
+              "pickup": 15000
             }
           ]
         },
@@ -571,47 +571,34 @@
       "items": [
         {
           "name": "1인 피자 + 코카콜라 500ml",
-          "badges": [
-            "한그릇 할인"
-          ],
           "image": "/menu/solo-set.jpg",
           "options": [
             {
-              "delivery": 12000,
-              "pickup": 12000,
-              "original": 15000,
-              "discount": 20
+              "delivery": 15000,
+              "pickup": 15000
             }
           ]
         },
         {
           "name": "1인 피자",
-          "badges": [
-            "한그릇 할인"
-          ],
           "image": "/menu/solo-pizza.jpg",
           "options": [
             {
-              "delivery": 11200,
-              "pickup": 11200,
-              "original": 14000,
-              "discount": 20
+              "delivery": 14000,
+              "pickup": 14000
             }
           ]
         },
         {
           "name": "1인 반반피자",
           "badges": [
-            "한그릇 할인",
             "인기"
           ],
           "image": "/menu/solo-banban.jpg",
           "options": [
             {
-              "delivery": 12000,
-              "pickup": 12000,
-              "original": 15000,
-              "discount": 20
+              "delivery": 15000,
+              "pickup": 15000
             }
           ]
         }

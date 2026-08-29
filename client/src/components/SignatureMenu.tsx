@@ -5,7 +5,7 @@ const featured = {
   name: "쪽파크림치즈피자",
   badge: "★ SIGNATURE",
   description: "20년간 사랑받아 온 네오피자의 대표 시그니처 메뉴. 신선한 쪽파와 부드러운 크림치즈의 완벽한 조화.",
-  price: "중 23,000 / 대 27,000원",
+  price: "중 25,000 / 대 29,000원",
   image: "/menu/jjokpa.jpg"
 };
 
@@ -13,19 +13,19 @@ const sideItems = [
   {
     name: "콤비네이션",
     badge: "BEST",
-    price: "중 21,000 / 대 25,000원",
+    price: "중 23,000 / 대 27,000원",
     image: "/menu/combination.jpg"
   },
   {
     name: "반반피자",
     badge: "HIT",
-    price: "중 22,000 / 대 26,000원",
+    price: "중 25,000 / 대 29,000원",
     image: "/menu/banban.jpg"
   },
   {
     name: "매콤카레",
     badge: "NEW",
-    price: "중 23,000 / 대 27,000원",
+    price: "중 25,000 / 대 29,000원",
     image: "/menu/curry.jpg"
   }
 ];
