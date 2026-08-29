@@ -35,7 +35,7 @@
     { "id": "gyeongbuk-pohang", "name": "네오피자 포항북구점", "region": "경북", "address": "경북 포항시 북구 장량로32번길 8 (장성동) 상가동 1층", "phone": "054-612-6060", "type": "가맹" },
 
     { "id": "daejeon-gao", "name": "네오피자 대전가오점", "region": "대전", "address": "대전 동구 대전로 453 (가오동)", "phone": "042-271-4522", "type": "가맹" },
-    { "id": "daejeon-donggu", "name": "네오피자 대전동구점", "region": "대전", "address": "대전 동구 충정로130번길 58 (가양동) 1층", "phone": "042-633-4538", "type": "가맹" },
+    { "id": "daejeon-donggu", "name": "네오피자 대전동구점", "region": "대전", "address": "대전 동구 삼성동 363-4번지 1층", "phone": "042-633-4538", "type": "가맹" },
     { "id": "daejeon-seogu", "name": "네오피자 대전서구점", "region": "대전", "address": "대전 서구 갈마로147번길 4", "phone": "1522-1373", "type": "가맹" },
 
     { "id": "ulsan-mugeo", "name": "네오피자 울산무거굴화점", "region": "울산", "address": "울산 남구 신복로21번길 3-1", "phone": "052-224-2233", "type": "가맹" },
