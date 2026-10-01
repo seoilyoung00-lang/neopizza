@@ -5,6 +5,13 @@
   "installCommand": "npm install",
   "framework": null,
   "rewrites": [
-    { "source": "/((?!assets/|menu/|.*\\..*).*)", "destination": "/index.html" }
+    {
+      "source": "/stores/direct",
+      "destination": "/stores/direct.html"
+    },
+    {
+      "source": "/((?!assets/|menu/|.*\\..*).*)",
+      "destination": "/index.html"
+    }
   ]
 }

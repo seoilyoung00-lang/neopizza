@@ -1,3 +1,4 @@
+import { buildDirectStore } from "./build-direct-store";
 import { build as esbuild } from "esbuild";
 import { build as viteBuild } from "vite";
 import { rm, readFile } from "fs/promises";
@@ -37,6 +38,7 @@ async function buildAll() {
 
   console.log("building client...");
   await viteBuild();
+  await buildDirectStore();
 
   console.log("building server...");
   const pkg = JSON.parse(await readFile("package.json", "utf-8"));

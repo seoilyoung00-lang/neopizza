@@ -143,6 +143,11 @@ export default function StoreLocator() {
                   </a>
                 </div>
 
+                {store.id === "daegu-jikyoung" && (
+                  <a href="/stores/direct" className="mb-3 text-center text-[#005F73] font-bold py-3 rounded-xl border border-[#005F73]/25 hover:bg-[#005F73]/5">
+                    직영점 소개 · 메뉴 · 자주 묻는 질문 →
+                  </a>
+                )}
                 <a
                   href={kakaoMapUrl(store)}
                   target="_blank"
