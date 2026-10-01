@@ -3,6 +3,8 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 // 기존 메뉴·매장 데이터를 재사용해 자바스크립트 없이 읽을 수 있는 매장 페이지를 생성합니다.
 export async function buildDirectStore() {
   const menu = JSON.parse(await readFile("client/src/data/menu.json", "utf8"));
+  // 직영점 안내에는 요청에 따라 1인 메뉴를 노출하지 않습니다.
+  menu.categories = menu.categories.filter((category: { id: string }) => category.id !== "hangeurit");
   const stores = JSON.parse(await readFile("client/src/data/stores.json", "utf8"));
   const store = stores.stores.find((s: { id: string }) => s.id === "daegu-jikyoung");
   if (!store) throw new Error("직영점 정보를 찾을 수 없습니다.");
@@ -23,7 +25,6 @@ export async function buildDirectStore() {
     ["한 판에 두 가지 맛을 고를 수 있나요?", `취향반반 피자로 두 가지 맛을 고를 수 있습니다. ${price(find("취향반반 (2가지 맛) 피자"))}이며, 선택 가능한 맛과 추가금은 주문 시 확인해 주세요.`],
     ["두 명이 먹기 좋은 세트가 있나요?", `커플세트는 반반 중 + 사이드메뉴 택1 + 콜라 500ml 구성으로 ${price(find("커플세트"))}입니다. 2인 구성으로 안내하며, 식사량에 따라 필요한 양은 달라질 수 있습니다.`],
     ["가족이나 여러 명이 함께 먹을 세트가 있나요?", `가족세트는 중 사이즈 피자 두 판 + 사이드메뉴 택2 + 콜라 1.25L로 ${price(find("가족세트"))}, 모임세트는 대 사이즈 피자 두 판 + 사이드메뉴 택3 + 콜라 1.25L로 ${price(find("모임세트"))}입니다. 각각 3~4인, 4인 이상 구성으로 안내합니다.`],
-    ["혼자 먹을 수 있는 메뉴도 있나요?", `1인 피자는 ${price(find("1인 피자"))}, 1인 반반피자는 ${price(find("1인 반반피자"))}, 1인 피자 + 코카콜라 500ml 세트는 ${price(find("1인 피자 + 코카콜라 500ml"))}입니다.`],
     ["포장과 배달이 가능한가요?", "포장과 배달 모두 이용하실 수 있습니다. 네이버플레이스에서 주문 안내를 확인하거나 매장으로 전화해 주세요. 배달 가능 지역과 배달비는 주문 주소 및 주문 채널에서 확인하실 수 있습니다."],
     ["주차할 수 있나요?", "주차 가능합니다. 주차 위치와 이용 조건은 방문 전 매장으로 문의해 주세요."],
   ];
